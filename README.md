@@ -11,7 +11,7 @@ docker-compose up --build
 docker-compose run --rm app rspec
 ```
 
-## Using witth [httpie](https://github.com/jakubroztocil/httpie)
+## Using with [httpie](https://github.com/jakubroztocil/httpie)
 
 additon
 ```
