@@ -2,7 +2,7 @@
 
 ```
 docker-compose build
-docker-compose up
+docker-compose up --build
 ```
 
 ## Testing
@@ -11,7 +11,7 @@ docker-compose up
 docker-compose run --rm app rspec
 ```
 
-## Using
+## Using witth [httpie](https://github.com/jakubroztocil/httpie)
 
 additon
 ```
@@ -36,7 +36,7 @@ results
 http GET http://localhost:3000/calculators
 ```
 
-# Using funny way :meral:
+# :metal: Using funny way witth [httpie](https://github.com/jakubroztocil/httpie)
 
 ```
 http POST https://limitless-tundra-70503.herokuapp.com/calculators algorithim="1/1="
