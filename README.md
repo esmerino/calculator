@@ -36,7 +36,7 @@ results
 http GET http://localhost:3000/calculators
 ```
 
-# :metal: Using funny way witth [httpie](https://github.com/jakubroztocil/httpie)
+# :metal: Using funny way with [httpie](https://github.com/jakubroztocil/httpie)
 
 ```
 http POST https://limitless-tundra-70503.herokuapp.com/calculators algorithim="1/1="
