@@ -1,24 +1,38 @@
-# README
+## Running
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+docker-compose build
+docker-compose up
+```
 
-Things you may want to cover:
+## Testing
 
-* Ruby version
+```
+docker-compose run --rm app rspec
+```
 
-* System dependencies
+## Using
 
-* Configuration
+additon
+```
+http POST http://localhost:3000/calculators algorithim="1+3="
+```
+multiplication
+```
+http POST http://localhost:3000/calculators algorithim="1*3="
+```
+subtraction
+```
+http POST http://localhost:3000/calculators algorithim="1-3="
+````
 
-* Database creation
+division
+```
+http POST http://localhost:3000/calculators algorithim="1/3="
+```
 
-* Database initialization
+results
+```
+http GET http://localhost:3000/calculators
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
