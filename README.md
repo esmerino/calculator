@@ -36,3 +36,8 @@ results
 http GET http://localhost:3000/calculators
 ```
 
+# Using funny way :meral:
+
+```
+http POST https://limitless-tundra-70503.herokuapp.com/calculators algorithim="1/1="
+```
